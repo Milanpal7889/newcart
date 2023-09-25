@@ -13,7 +13,7 @@ export function Store(){
     const productsState: Product[] =  useProductsState();
 
     return (
-        <div className="store">
+        <div className="m-8 flex flex-row flex-wrap">
             {productsState.map((product) => (
                 <StoreItem key={product.id} {...product} />
             ))}

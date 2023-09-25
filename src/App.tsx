@@ -11,7 +11,7 @@ function App() {
 
   return (
     <ShoppingCartprovider>
-    <div className='container m-4'>
+    <div className=''>
     <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
